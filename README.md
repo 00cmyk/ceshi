@@ -21,3 +21,15 @@ zip -r range-picker-demo.zip . -x '.git/*' 'node_modules/*'
 生成路径：
 
 - `./range-picker-demo.zip`
+
+## 一键打包脚本
+
+如果你不熟悉 GitHub 下载代码，可以直接在项目根目录执行：
+
+```bash
+bash scripts/package.sh
+```
+
+执行后会在仓库根目录生成：
+
+- `range-picker-demo.zip`
