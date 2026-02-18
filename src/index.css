@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, "PingFang SC", "Microsoft Yahei", system-ui, sans-serif;
+}
+
+body {
+  @apply min-h-screen bg-gradient-to-br from-zinc-50 to-zinc-100 text-zinc-900 antialiased;
+}
